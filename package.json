@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "a backend at my pc",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "shiva",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "nodemon": "^3.1.9"
+  }
 }
