@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -16,5 +16,8 @@
   "dependencies": {
     "-": "^0.0.1",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
